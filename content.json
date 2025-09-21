@@ -1,82 +1,97 @@
 {
 	"personal": {
-		"name": "Pablo Beltran",
-		"position": "Full Stack Software Engineer",
-		"startYear": 2022,
+		"name": "Cody Rice Velasquez",
+		"position": "Systems Whisperer & Business Operations Consultant",
+		"startYear": 2009,
 		"profilePicture": "/images/profile.jpg",
-		"curriculum": "/files/Pablo-Beltran-Full-Stack.pdf",
-		"introdution": "I'm a passionate Software Engineer from Ecuador who thrives in fast-paced environments, always striving to deliver high-quality solutions. In my free time, you can find me surfing, enjoying music, or practicing martial arts!",
+		"curriculum": "/files/Cody-Rice-Velasquez-Resume.pdf",
+		"introdution": "I'm Cody Rice Velasquez—systems whisperer, chaos-to-clarity alchemist, and the brain behind QiAlly & EmpowerQNow. From Evansville roots to reviving broken empires, I bridge the gap between disarray and dynamite success. With over 15 years of experience spanning finance, HR, technology, and operations, I've delivered $3M+ in savings and optimized 200+ systems.",
 		"contact": {
-			"email": "beltranflores.juan@gmail.com",
-			"linkedIn": "https://www.linkedin.com/in/pablobeltran1405",
-			"github": "https://github.com/Ilchampo",
-			"calendly": "https://calendly.com/beltranflores-juan"
+			"email": "info@qially.me",
+			"linkedIn": "https://www.linkedin.com/company/106736990",
+			"github": "https://github.com/qially",
+			"calendly": "https://calendly.com/qially/qimoment"
 		}
 	},
 	"experiences": [
 		{
 			"type": "work",
-			"title": "Full Stack Software Engineer",
-			"entity": "Trebol (YC W22)",
-			"startDate": "Sep 2024",
-			"endDate": "May 2025",
-			"description": "I built automation tools that saved tons of manual work—think document sorting and duplication handled with a click. I helped teams get comfy with SvelteKit by setting up smooth dev standards, and gave old code a makeover with clean, scalable practices."
+			"title": "Co-Founder & CEO",
+			"entity": "QiAlly LLC",
+			"startDate": "Jan 2025",
+			"endDate": "Present",
+			"description": "Co-founded IisiTax LLC (now QiAlly LLC) and beta-launched QiLife & QiCall AI modules. Leading comprehensive platform development that unifies client portals, admin control, APIs, AI (RAG/voice/vision), billing, and per-client public websites."
 		},
 		{
 			"type": "work",
-			"title": "Full Stack Software Engineer",
-			"entity": "QS Quacquarelli Symonds (Formerly 1Mentor)",
-			"startDate": "Mar 2023",
-			"endDate": "Sep 2024",
-			"description": " I juggled backend and frontend features that made life easier for users and advisors—like exportable profiles and localized skill suggestions. I also tightened security with encrypted configs via GCP, fine-tuned frontend performance, and boosted code health with SonarCloud."
+			"title": "Founder & CEO",
+			"entity": "SRVGroup",
+			"startDate": "Jan 2023",
+			"endDate": "Present",
+			"description": "Founded SRVGroup with multiple LLCs under the umbrella, expanding service offerings. Launched SRV1NE solopreneur venture, later rebranded to InnovaFlow within QIP ecosystem."
 		},
 		{
 			"type": "work",
-			"title": "Full Stack Software Engineer",
-			"entity": "RocketRez (Formerly TourOpp)",
-			"startDate": "Jun 2022",
-			"endDate": "Mar 2023",
-			"description": "I brought all messaging—SMS, email, in-app—into one clean backend endpoint at RocketRez. On the frontend, I revamped the messaging UI for a smoother, more modern feel. The result? A tighter, more user-friendly platform."
+			"title": "Founder & CEO",
+			"entity": "Servicios Rice-Velasquez",
+			"startDate": "Jan 2019",
+			"endDate": "Present",
+			"description": "Started Servicios Rice-Velasquez, scaling to $1.5M in revenue while still at MSIL. Developed EmpowerQNow tarot & mind map system—melding strategy and spirituality."
 		},
 		{
 			"type": "work",
-			"title": "Full Stack Software Engineer (Contract)",
-			"entity": "Deft (Appian Partner)",
-			"startDate": "Jan 2022",
-			"endDate": "Jun 2022",
-			"description": "I teamed up with stakeholders to design scalable databases that powered key business tools. I helped shape the system's backbone—clean ERDs, clear logic, and smart planning for long-term growth."
+			"title": "Acting Director of HR & Operations",
+			"entity": "MSIL",
+			"startDate": "Jan 2016",
+			"endDate": "Dec 2022",
+			"description": "Climbed from Jr. Account Manager to Acting Director of HR & Ops at MSIL—managing 300+ employees and refining SOPs. Delivered $3M+ in savings, optimized 200+ systems, and transformed 80+ solutions and processes."
+		},
+		{
+			"type": "work",
+			"title": "Founder & CEO",
+			"entity": "Angel Ayuda LLC",
+			"startDate": "Jan 2009",
+			"endDate": "Dec 2014",
+			"description": "Founded Angel Ayuda LLC during the 2009 crisis, providing computer repair services while studying full time. Achieved fluency in Spanish and deep immersion in Hispanic culture."
 		},
 		{
 			"type": "education",
-			"title": "Master in Business Intelligence & Data Analytics",
-			"entity": "Universidad de las Americas",
-			"startDate": "Mar 2025",
-			"endDate": "Expected Jun 2026",
-			"description": "I'm diving deep into data—learning how to turn raw info into smart business moves. From predictive models to sharp visualizations, the program ends with a capstone where we tackle real-world problems with real data"
+			"title": "Bachelor of Business Administration in HR Management",
+			"entity": "Western Governors University",
+			"startDate": "Jan 2018",
+			"endDate": "Dec 2020",
+			"description": "Graduated with BBA in HR Management. Studied ASL Levels I–II and provided translation and support for deaf employees."
 		},
 		{
 			"type": "education",
-			"title": "Bachelor in Software Engineering",
-			"entity": "Universidad de las Americas",
-			"startDate": "Mar 2019",
-			"endDate": "Jun 2023",
-			"description": "My undergrad gave me solid software chops—from architecture to agile teamwork. I led student initiatives, mentored junior devs, and earned top marks with a 9.33/10 capstone. I even placed 5th in a local tech comp with a biometric train ticketing system."
+			"title": "Associate's in Information Systems",
+			"entity": "Ivy Tech Community College",
+			"startDate": "Jan 2012",
+			"endDate": "Dec 2014",
+			"description": "Graduated with Associate's in InfoSys, Networking Security cert, CompTIA certified while leading teams at Enkei, IHOP, and Waffle House."
 		}
 	],
 	"projects": [
 		{
 			"image": "/images/astrotext.jpg",
-			"title": "AstroText",
-			"description": "Built an open-source Chrome extension to correct and enhance English writing for non-native speakers. Features grammar correction, tone adjustment, and lexical improvement.",
-			"skills": ["React", "Vite", "Open AI API", "Chrome Extension API"],
-			"github": "https://github.com/AstroBit-LLC/astro-text"
+			"title": "QiAlly Platform",
+			"description": "Comprehensive platform that unifies client portals, admin control, APIs, AI (RAG/voice/vision), billing, and per-client public websites. Built with Cloudflare-first architecture and Supabase backend for scalable, secure multi-tenant operations.",
+			"skills": ["React", "TypeScript", "Supabase", "Cloudflare", "AI/ML", "Multi-tenant Architecture"],
+			"github": "https://github.com/qially"
 		},
 		{
 			"image": "/images/llegaracasa.jpg",
-			"title": "Llegar a Casa",
-			"description": "Developed a web scraper to verify the legality of public transport vehicles. Helped over 300 users access safe transport data before shutting down the app.",
-			"skills": ["SvelteKit", "Node", "Puppeteer", "TailwindCSS", "Vercel"],
-			"github": "https://github.com/Ilchampo/llegar-a-casa"
+			"title": "EmpowerQNow",
+			"description": "Developed innovative tarot & mind map system that melds strategy and spirituality. Created a unique approach to business consulting that combines traditional wisdom with modern operational excellence.",
+			"skills": ["Strategic Planning", "Business Consulting", "Mind Mapping", "Process Optimization"],
+			"github": "https://github.com/qially/empowerqnow"
+		},
+		{
+			"image": "/images/allegaracasa.jpg",
+			"title": "MSIL Operations Overhaul",
+			"description": "Led comprehensive operational transformation at MSIL, managing 300+ employees and refining SOPs. Delivered $3M+ in savings through process optimization, systems integration, and workflow automation.",
+			"skills": ["Operations Management", "Process Optimization", "HR Systems", "Financial Analysis"],
+			"github": "https://github.com/qially/msil-case-study"
 		}
 	]
 }
