@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://pablobeltran.site/sitemap.xml
+Sitemap: https://codyrv.site/sitemap.xml
 
 # Prevent indexing of sensitive routes
 Disallow: /api/
