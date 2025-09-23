@@ -1,0 +1,14 @@
+.shape {
+	position: absolute;
+	left: var(--shape-left);
+	top: var(--shape-top);
+	width: var(--shape-size);
+	height: var(--shape-size);
+}
+
+.shape-container {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	pointer-events: none;
+}

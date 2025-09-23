@@ -2,6 +2,8 @@ import React from 'react';
 
 import { motion } from 'motion/react';
 
+import styles from './FloatingBubbles.module.css';
+
 interface FloatingBubblesProps {
 	className?: string;
 	count?: number;
@@ -49,15 +51,13 @@ const FloatingBubbles: React.FC<FloatingBubblesProps> = props => {
 			return (
 				<motion.div
 					key={i}
-					className="absolute rounded-full"
+					className={`${styles.bubble} rounded-full`}
 					style={{
-						left: `${x}%`,
-						top: `${y}%`,
-						width: `${size}px`,
-						height: `${size}px`,
-						background: `radial-gradient(circle at 30% 30%, rgba(255,255,255,0.3), ${color}15)`,
-						border: `1px solid ${color}20`,
-					}}
+						'--bubble-left': `${x}%`,
+						'--bubble-top': `${y}%`,
+						'--bubble-size': `${size}px`,
+						'--bubble-color': color,
+					} as React.CSSProperties}
 					custom={i}
 					variants={animated ? bubbleVariants : undefined}
 					initial={animated ? 'hidden' : undefined}
@@ -70,7 +70,7 @@ const FloatingBubbles: React.FC<FloatingBubblesProps> = props => {
 	};
 
 	return (
-		<div className={`absolute inset-0 overflow-hidden pointer-events-none ${className}`}>{generateBubbles()}</div>
+		<div className={`${styles['bubble-container']} ${className}`}>{generateBubbles()}</div>
 	);
 };
 

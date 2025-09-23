@@ -2,6 +2,8 @@ import React from 'react';
 
 import { motion } from 'motion/react';
 
+import styles from './OrganicShapes.module.css';
+
 interface OrganicShapesProps {
 	className?: string;
 	opacity?: number;
@@ -64,13 +66,12 @@ const OrganicShapes: React.FC<OrganicShapesProps> = props => {
 			return (
 				<motion.div
 					key={i}
-					className="absolute"
+					className={styles.shape}
 					style={{
-						left: `${x}%`,
-						top: `${y}%`,
-						width: `${size}px`,
-						height: `${size}px`,
-					}}
+						'--shape-left': `${x}%`,
+						'--shape-top': `${y}%`,
+						'--shape-size': `${size}px`,
+					} as React.CSSProperties}
 					custom={i}
 					variants={animated ? shapeVariants : undefined}
 					initial={animated ? 'hidden' : undefined}
@@ -99,7 +100,7 @@ const OrganicShapes: React.FC<OrganicShapesProps> = props => {
 	};
 
 	return (
-		<div className={`absolute inset-0 overflow-hidden pointer-events-none ${className}`}>{generateShapes()}</div>
+		<div className={`${styles['shape-container']} ${className}`}>{generateShapes()}</div>
 	);
 };
 

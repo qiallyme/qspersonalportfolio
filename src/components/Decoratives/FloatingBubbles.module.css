@@ -1,0 +1,17 @@
+.bubble {
+	position: absolute;
+	border-radius: 50%;
+	left: var(--bubble-left);
+	top: var(--bubble-top);
+	width: var(--bubble-size);
+	height: var(--bubble-size);
+	background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.3), color-mix(in srgb, var(--bubble-color) 8%, transparent));
+	border: 1px solid color-mix(in srgb, var(--bubble-color) 12%, transparent);
+}
+
+.bubble-container {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	pointer-events: none;
+}
